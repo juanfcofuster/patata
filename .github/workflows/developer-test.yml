@@ -13,5 +13,7 @@ jobs:
       # We checkout the repository's code
       - uses: actions/checkout@v1
       # We lunch the tests
-      - name: Launch tests with Maven
-        run:  chmod +x ./mvnw test
+      - name: Change permissions
+        run:  chmod +x ./mvnw
+      - name: Launch Test with Maven
+        run: ./mvnw test
