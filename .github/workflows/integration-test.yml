@@ -14,6 +14,7 @@ jobs:
         ports: ['5432:5432']
         # Variables para arrancar PostgreSQL
         env:
+          POSTGRES_HOST: postgres
           POSTGRES_USER: atsd
           POSTGRES_PASSWORD: atsd
           POSTGRES_DB: atsd_test
