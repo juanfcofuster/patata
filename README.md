@@ -1,6 +1,6 @@
 # 📝 ToDo List App (v1.1.0)
 
-Welcome to the **ToDo List App**, a task management application built using **Spring Boot**, **Thymeleaf**, and **Bootstrap**, following a layered architecture and test-driven methodology.
+Hi, welcome to the **ToDo List App**, a task management application built using **Spring Boot**, **Thymeleaf**, and **Bootstrap**, following a layered architecture and test-driven methodology.
 
 ---
 
